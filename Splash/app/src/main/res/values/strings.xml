@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Splash</string>
+    <string name="title_activity_main2">SPLASH</string>
+    <string name="action_settings">Settings</string>
+    <string name="appicon">Application Icon</string>
+    <string name="apkname">Application Name:</string>
+    <string name="package_name">Package Name:</string>
+    <string name="version">Version:</string>
+    <string name="features">Required Features:</string>
+    <string name="permissions">Required Permissions:</string>
+    <string name="req_version">Taget SDK Version:</string>
+    <string name="path_info">Path Info:</string>
+    <string name="appsize">Physical Size</string>
+    <string name="installed">Installed:</string>
+    <string name="modified">Last Modified:</string>
+    <string name="permbutton">Permission Settings</string>
+    <string name="diclaimer">Disclaimer!</string>
+    <string name="disclaimer_descrip">Appops will not be responsibe for the misbehaviour of an app.  Please note that the user is responsible for dissabled permisssion which is carried out by the user.</string>
+    <string name="Disclaimer_Button">Continue</string>
+    <string name="Appops2Ttile">AppOps</string>
+    <string name="instaps">Installed Apps</string>
+    <string name="filter"><![CDATA[Toggle to filter in/out system apps  >>>>]]></string>
+</resources>

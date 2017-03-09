@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/vicav">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="THE APP AUTHORITY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|italic"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:text="AppOps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/icongun"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/pegasus"
+        android:id="@+id/icongun"
+        android:layout_marginTop="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
